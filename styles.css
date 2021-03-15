@@ -1,14 +1,20 @@
-body {
-	background-color: gray;
-		opacity: 0.8;
-		text-align: justify-all;
-}
-h1 {
-	color: blue;
-}
 html {
 	background-image: url(https://miro.medium.com/max/2560/1*OsqTAlJOlpFMFVi1qU1mog.jpeg);
 	background-position: fixed;
 	background-repeat: no-repeat;
 	background-size: 100%;
+}
+body {
+	background-color: gray;
+		opacity: 0.8;
+}
+h1 {
+	color: #000;
+	font-weight: bold;
+	font-size: 30px;
+}
+p {
+	color: #000;
+	font-weight: bold;
+	font-size: 22px;
 }
