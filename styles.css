@@ -1,5 +1,6 @@
 body {
-	
+	background-color: gray;
+		opacity: 0.7;
 }
 h1 {
 	color: blue;
