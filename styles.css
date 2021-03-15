@@ -7,7 +7,7 @@ h1 {
 }
 html {
 	background-image: url(https://miro.medium.com/max/2560/1*OsqTAlJOlpFMFVi1qU1mog.jpeg);
-	background-position: relative;
+	background-position: auto;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100%;
