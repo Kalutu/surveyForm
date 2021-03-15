@@ -1,7 +1,8 @@
 body {
 	background-image: url(https://miro.medium.com/max/2560/1*OsqTAlJOlpFMFVi1qU1mog.jpeg);
 	background-position: center;
-	background-size: auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 h1 {
 	color: blue;
