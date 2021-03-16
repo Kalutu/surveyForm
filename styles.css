@@ -3,6 +3,7 @@
 body {
 	background-image: url(https://miro.medium.com/max/2560/1*OsqTAlJOlpFMFVi1qU1mog.jpeg);
 	background-position: fixed;
+	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-color: gray;
