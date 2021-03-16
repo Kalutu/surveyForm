@@ -56,5 +56,10 @@ select {
 	display: block;
 }
 textarea {
-
+ padding: 15px 50px;
+}
+button {
+	display: inline-block;
+	padding: 5px
+	background-color: blue;
 }
