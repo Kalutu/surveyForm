@@ -6,26 +6,29 @@
  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
- <h1 id="title">Crown Computers Survey Form</h1>
+ <header id="title">
+ 	<h1>Crown Computers Survey Form</h1>
+ </header>
+ <div class="container">
  <h2 id="description">Thank you for taking time to answer these questions. Your response will help provide the best services possible.</h2>
  <form id="survey-form">
  	<div>
  		<label for="name" id="name-label">Name</label>
- 	    <input type="text" name="name" placeholder="Enter Your Name" required>
+ 	    <input id="dropdown" type="text" name="name" placeholder="Enter Your Name" required>
  	</div>
 
     <div>
  		<label for="email" id="email-label">Email</label>
- 		<input type="text" name="email" placeholder="Enter Your Email" required>
+ 		<input id="dropdown" type="text" name="email" placeholder="Enter Your Email" required>
  	</div>
 
  	<div>
  		<label for="number" id="number-label">Age<span> (optional)</span></label>
- 		<input type="number" name="age" min="13" max="70" placeholder="Enter Your Age">
+ 		<input id="dropdown" type="number" name="age" min="13" placeholder="Enter Your Age">
  	</div>
 
  	<div>
- 		Gender<span> (optional)</span>
+ 		<label id="gender-label">Gender<span> (optional)</span></label>
  		<select id="dropdown" name="Gender">
  			<option disabled selected value>Select Gender</option>
  			<option value="male">Male</option>
@@ -77,6 +80,7 @@
  	<div>
  		<button type="submit" id="submit-button">Submit</button>
 	</div>
+</div>
  </form>
 </body>
 </html>
