@@ -1,40 +1,60 @@
-html {
+body {
 	background-image: url(https://miro.medium.com/max/2560/1*OsqTAlJOlpFMFVi1qU1mog.jpeg);
-	background-position: relative;
+	background-position: fixed;
 	background-repeat: no-repeat;
 	background-size: 100%;
-}
-body {
 	background-color: gray;
-		opacity: 0.9;
-		position: relative;
+	margin: 50px;
+	padding: 0px;
+	position: center;
+
 }
-h1 {
-	color: #000;
-	font-weight: bold;
-	font-size: 40px;
+#title {
+	background-color: lightgray;
+	opacity: 0.9;
+	color: black;
 	text-align: center;
+	width: 100%
+	margin: auto;
+	font-size: 24px;
+
+}
+.container {
+	background-color: lightgray;
+		opacity: 0.9;
+		width: 100%
+		margin: auto;
 }
 h2 {
-	color: #000;
-	font-weight: bold;
-	font-size: 30px;
-	text-align: center;
+	font-size: 22px;
+	margin: 10px;
 }
 p {
 	color: #000;
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 20px;
+	margin: 10px;
 }
 div {
 	color: #000;
 	font-weight: 200;
 	font-size: 20px;
-	margin: 20px;
+	margin: 30px;
 }
-button {
-	font-size: 20px;
+input {
+	display: inline-block;
+	padding: 5px 20px;
+	width: auto;
+	text-align: left;
+}
+select {
+	display: inline-block;
+	padding: 5px 20px;
+	text-align: left;
+}
+#dropdown {
+	display: block;
 }
 textarea {
-	color: blue;
+
 }
