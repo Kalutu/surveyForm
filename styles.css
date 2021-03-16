@@ -56,10 +56,23 @@ select {
 	display: block;
 }
 textarea {
- padding: 15px 50px;
+  min-height: 100px;
+  width: 100%;
+  padding: 0.5rem;
+  resize: vertical;
 }
 button {
-	display: inline-block;
-	padding: 5px
-	background-color: blue;
+	display: block;
+  width: 100%;
+  padding: 0.65rem;
+  background-color: blue;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 25px;
+  text-decoration: bold;
+}
+textarea::placeholder {
+	text-align: left;
+	font-size: 20px;
 }
