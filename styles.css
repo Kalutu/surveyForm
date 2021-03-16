@@ -1,20 +1,40 @@
 html {
 	background-image: url(https://miro.medium.com/max/2560/1*OsqTAlJOlpFMFVi1qU1mog.jpeg);
-	background-position: fixed;
+	background-position: relative;
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
 body {
 	background-color: gray;
-		opacity: 0.8;
+		opacity: 0.9;
+		position: relative;
 }
 h1 {
 	color: #000;
 	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+}
+h2 {
+	color: #000;
+	font-weight: bold;
 	font-size: 30px;
+	text-align: center;
 }
 p {
 	color: #000;
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 25px;
+}
+div {
+	color: #000;
+	font-weight: 200;
+	font-size: 20px;
+	margin: 20px;
+}
+button {
+	font-size: 20px;
+}
+textarea {
+	color: blue;
 }
